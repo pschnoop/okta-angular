@@ -17,6 +17,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "core-js-pure"
+            ],
             "outputPath": "dist/angular-v11",
             "index": "src/index.html",
             "main": "src/main.ts",
